@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimal Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-800 font-sans">
+    <header class="p-6 flex justify-between items-center shadow-md">
+      <h1 class="text-xl font-bold">MyBrand</h1>
+      <nav>
+        <a href="#" class="px-4 text-gray-600 hover:text-black">Home</a>
+        <a href="#" class="px-4 text-gray-600 hover:text-black">Features</a>
+        <a href="#" class="px-4 text-gray-600 hover:text-black">Contact</a>
+      </nav>
+    </header>
+
+    <main class="flex flex-col items-center justify-center min-h-screen px-4 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Welcome to My Minimal Site</h2>
+      <p class="text-gray-600 max-w-xl mb-6">
+        A simple and clean landing page using TailwindCSS. Perfect for showcasing your product or idea.
+      </p>
+      <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
+        Get Started
+      </a>
+    </main>
+
+    <footer class="text-center p-4 text-sm text-gray-500">
+      © 2025 MyBrand. All rights reserved.
+    </footer>
+  </body>
+</html>
